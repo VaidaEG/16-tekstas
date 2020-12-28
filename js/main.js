@@ -10,3 +10,12 @@ Isspausdinti lentele:
 - kiek yra skaiciu + 
 - kiek yra tikriniu zodziu (ivardziai (vardas, pavarde) ir vietovardziai)
 */
+
+// console.log(`Tekste yra: 
+// ${numberOfParagraphs} paragrafai,
+// ${numberOfSentences} sakiniai,
+// ${numberOfWords} žodžiai,
+// ${numberOfSymbols} simboliai,
+// ${numberOfLetters} raidės,
+// ${numberOfNumbers} skaičiai,
+// ${numberOfRealWords} tikriniai žodžiai.`);
