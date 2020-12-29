@@ -21,27 +21,24 @@ class TextAnalizer {
         if (this.abc[newLang]) {
             this.languages.push(newLang);
 
-            let text = '';
+            this.finalAbc = '';
             for (let lang of this.languages) {
                 if (this.lowercaseEnabled) {
-                    text += this.abc[lang].lowercase;
+                    this.finalAbc += this.abc[lang].lowercase;
                 }
                 if (this.uppercaseEnabled) {
-                    text += this.abc[lang].uppercase;
+                    this.finalAbc += this.abc[lang].uppercase;
                 }
             }
-            this.finalAbc = text;
-            console.log(this.finalAbc);
         } else {
             console.error(`ERROR: norima (${newLang}) kalba nerasta.`);
         }
-
     }
     letterCount() {
         let count = 0;
 
         for (let letter of this.text) {
-            if( this.abc.includes(letter) ) {
+            if( this.finalAbc.includes(letter) ) {
                 count ++;
             }
         }
