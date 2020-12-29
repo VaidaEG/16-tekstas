@@ -6,8 +6,10 @@ Projektas skirtas analizuoti duota teksta, norint issiaiskinti kaip jis sudaryta
 - paragraphCount() - metodas, skirtas suskaiciuoti paragrafu kieki tekste;
 - sentenceCount() - metodas, skirtas suskaiciuoti sakiniu kieki tekste;
 - wordCount() - metodas, skirtas suskaiciuoti zodziu kieki tekste;
-- letterCount() - metodas, skirtas suskaiciuoti skaiciu kieki tekste;
+- letterCount() - metodas, skirtas suskaiciuoti abeceles raidziu kieki tekste;
+- numberCount() - metodas, skirtas suskaiciuoti skaiciu kieki tekste;
 - digitsCount() - metodas, skirtas suskaiciuoti skaitmenu kieki tekste;
+- symbolCount() - metodas, skirtas suskaiciuoti matomu simboliu kieki tekste;
 
 ## Placiau apie metodus
 
